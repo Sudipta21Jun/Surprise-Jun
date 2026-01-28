@@ -49,3 +49,16 @@ body {
     border-radius: 10px;
     margin-top: 20px;
   }
+   .hearts::before {
+  content: "💗 💕 💖 💘 💞";
+  position: fixed;
+  bottom: -10px;
+  font-size: 22px;
+  animation: floatUp 10s linear infinite;
+  opacity: 0.4;
+}
+
+@keyframes floatUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-120vh); }
+}
