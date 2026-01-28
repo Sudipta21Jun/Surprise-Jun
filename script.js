@@ -23,5 +23,5 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
-    window.location.href = "valentine.html";
+    window.location.href = "yes_page.html";
 }
