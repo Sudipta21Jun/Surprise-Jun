@@ -23,5 +23,9 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
+   document.body.classList.add("fade-out");
+
+  setTimeout(() => {
     window.location.href = "yes_page.html";
+  }, 600);
 }
