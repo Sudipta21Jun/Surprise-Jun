@@ -62,3 +62,7 @@ body {
   0% { transform: translateY(0); }
   100% { transform: translateY(-120vh); }
 }
+ .fade-out {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
